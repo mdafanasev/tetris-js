@@ -1,6 +1,31 @@
+:root {
+	--color-1: #f5e0dc;
+	--color-2: #cba6f7;
+	--color-3: #f38ba8;
+	--color-4: #fab387;
+	--color-5: #a6e3a1;
+	--color-6: #74c7ec;
+	--color-7: #b4befe;
+	--color-bg-1: #313244;
+	--color-bg-2: #45475a;
+	--color-bg-3: #585b70;
+	--color-fg-1: #cdd6f4;
+	--color-fg-2: #bac2de;
+	--color-fg-3: #a6adc8;
+}
+
 body {
   margin: 0;
   padding: 0;
-  background-color: #242631;
+  background-color: var(--color-bg-1);
+}
+
+#app {
   height: 100vh;
+  display: flex;
+}
+
+#app canvas {
+  margin: auto;
+  border: 1px solid var(--color-fg-2);
 }
